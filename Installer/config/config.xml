@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>Hello World</Name>
+    <Version>1.0.0</Version>
+    <Title>Hello World 1.0.0</Title>
+    <Publisher>"Environmental Systems Research Institute Inc</Publisher>
+    <ProductUrl></ProductUrl>
+    <Logo>logo.png</Logo>
+    <InstallerWindowIcon>icon</InstallerWindowIcon>
+    <InstallerApplicationIcon>icon</InstallerApplicationIcon>
+    <Watermark>watermark.png</Watermark>
+    <Background>background.png</Background>
+    <StartMenuDir>ArcGIS/Hello World</StartMenuDir>
+    <TargetDir>@homeDir@/Applications/ArcGIS/Hello World</TargetDir>
+    <RunProgram></RunProgram>
+    <RunProgramDescription></RunProgramDescription>
+    <AllowSpaceInPath>true</AllowSpaceInPath>
+    <AllowNonAsciiCharacters>true</AllowNonAsciiCharacters>
+</Installer>
