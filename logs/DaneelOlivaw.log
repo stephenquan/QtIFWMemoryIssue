@@ -1,0 +1,241 @@
+14:48:19: Running steps for project HelloWorld...
+14:48:19: Starting: "C:\Qt\Qt5.12.1\Tools\QtCreator\bin\jom.exe" clean
+	C:\Qt\Qt5.12.1\Tools\QtCreator\bin\jom.exe -f Makefile.Release clean
+	del release\main_qml.cpp
+	del release\qmlcache_loader.cpp
+	del release\moc_predefs.h
+	del release\main.obj release\main_qml.obj release\qmlcache_loader.obj
+Could Not Find C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\release\moc_predefs.h
+	del release\HelloWorld.exp
+Could Not Find C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\release\HelloWorld.exp
+Could Not Find C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\debug\main_qml.cpp
+Could Not Find C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\debug\qmlcache_loader.cpp
+Could Not Find C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\debug\moc_predefs.h
+Could Not Find C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\debug\main.obj
+	C:\Qt\Qt5.12.1\Tools\QtCreator\bin\jom.exe -f Makefile.Debug clean
+	del debug\main_qml.cpp
+	del debug\qmlcache_loader.cpp
+	del debug\moc_predefs.h
+	del debug\main.obj debug\main_qml.obj debug\qmlcache_loader.obj
+	del debug\HelloWorld.exp debug\HelloWorld.vc.pdb debug\HelloWorld.ilk debug\HelloWorld.idb
+Could Not Find C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\debug\HelloWorld.exp
+	del HelloWorld.exp
+Could Not Find C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\HelloWorld.exp
+14:48:19: The process "C:\Qt\Qt5.12.1\Tools\QtCreator\bin\jom.exe" exited normally.
+14:48:19: Configuration unchanged, skipping qmake step.
+14:48:19: Starting: "C:\Qt\Qt5.12.1\Tools\QtCreator\bin\jom.exe" 
+	xcopy /s /q /y /i C:\Users\step7069\Documents\GitHub\QtIFWMemoryIssue\Installer\config C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Installer\config
+9 File(s) copied
+	xcopy /s /q /y /i C:\Users\step7069\Documents\GitHub\QtIFWMemoryIssue\Installer\packages C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Installer\packages
+3 File(s) copied
+	xcopy /s /q /y /i C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\plugins C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Installer\packages\com.esri.helloworld\data
+Unknown error.
+Unable to create directory - C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Installer\packages\com.esri.helloworld\data\designer
+18 File(s) copied
+jom: C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Makefile [copydata] Error 4
+	C:\Qt\Qt5.12.1\Tools\QtCreator\bin\jom.exe -f Makefile.Release
+	cl -c -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -O2 -MD -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -EHsc -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_QUICK_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DNDEBUG -I..\..\GitHub\QtIFWMemoryIssue -I. -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtQuick -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtGui -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtANGLE -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtQml -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtNetwork -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtCore -Irelease -IC:\VulkanSDK\1.0.51.0\include -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\mkspecs\win32-msvc -Forelease\ @C:\Users\step7069\AppData\Local\Temp\main.obj.14716.0.jom
+main.cpp
+	C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\qmlcachegen.exe --resource=C:/Users/step7069/Documents/GitHub/QtIFWMemoryIssue/qml.qrc -o release\main_qml.cpp ..\..\GitHub\QtIFWMemoryIssue\main.qml
+	C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\qmlcachegen.exe --resource-file-mapping=C:/Users/step7069/Documents/GitHub/QtIFWMemoryIssue/qml.qrc -o release\qmlcache_loader.cpp ..\..\GitHub\QtIFWMemoryIssue\qml.qrc
+	xcopy /s /q /y /i C:\Users\step7069\Documents\GitHub\QtIFWMemoryIssue\Installer\config C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Installer\config
+9 File(s) copied
+	xcopy /s /q /y /i C:\Users\step7069\Documents\GitHub\QtIFWMemoryIssue\Installer\packages C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Installer\packages
+3 File(s) copied
+	cl -c -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -O2 -MD -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -EHsc -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_QUICK_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DNDEBUG -I..\..\GitHub\QtIFWMemoryIssue -I. -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtQuick -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtGui -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtANGLE -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtQml -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtNetwork -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtCore -Irelease -IC:\VulkanSDK\1.0.51.0\include -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\mkspecs\win32-msvc -Forelease\ @C:\Users\step7069\AppData\Local\Temp\main_qml.obj.14716.63.jom
+main_qml.cpp
+	xcopy /s /q /y /i C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\plugins C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Installer\packages\com.esri.helloworld\data
+151 File(s) copied
+	xcopy /s /q /y /i C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\qml C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Installer\packages\com.esri.helloworld\data\qml
+	cl -c -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -O2 -MD -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -EHsc -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_QUICK_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DNDEBUG -I..\..\GitHub\QtIFWMemoryIssue -I. -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtQuick -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtGui -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtANGLE -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtQml -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtNetwork -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\include\QtCore -Irelease -IC:\VulkanSDK\1.0.51.0\include -IC:\Qt\Qt5.12.1\5.12.1\msvc2017_64\mkspecs\win32-msvc -Forelease\ @C:\Users\step7069\AppData\Local\Temp\qmlcache_loader.obj.14716.63.jom
+qmlcache_loader.cpp
+	link /NOLOGO /DYNAMICBASE /NXCOMPAT /INCREMENTAL:NO /SUBSYSTEM:WINDOWS "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" /MANIFEST:embed /OUT:release\HelloWorld.exe @C:\Users\step7069\AppData\Local\Temp\HelloWorld.exe.14716.985.jom
+1166 File(s) copied
+	copy /y C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\*.dll C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Installer\packages\com.esri.helloworld\data
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\d3dcompiler_47.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\libEGL.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\libEGLd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\libGLESv2.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\libGLESv2d.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\opengl32sw.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DAnimation.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DAnimationd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DCore.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DCored.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DExtras.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DExtrasd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DInput.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DInputd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DLogic.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DLogicd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DQuick.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DQuickAnimation.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DQuickAnimationd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DQuickd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DQuickExtras.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DQuickExtrasd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DQuickInput.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DQuickInputd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DQuickRender.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DQuickRenderd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DQuickScene2D.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DQuickScene2Dd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DRender.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt53DRenderd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Bluetooth.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Bluetoothd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Charts.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Chartsd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Concurrent.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Concurrentd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Core.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Cored.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5DataVisualization.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5DataVisualizationd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5DBus.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5DBusd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Designer.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5DesignerComponents.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5DesignerComponentsd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Designerd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Gamepad.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Gamepadd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Gui.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Guid.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Help.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Helpd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Location.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Locationd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Multimedia.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Multimediad.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5MultimediaQuick.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5MultimediaQuickd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5MultimediaWidgets.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5MultimediaWidgetsd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Network.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5NetworkAuth.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5NetworkAuthd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Networkd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Nfc.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Nfcd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5OpenGL.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5OpenGLd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Positioning.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Positioningd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5PositioningQuick.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5PositioningQuickd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5PrintSupport.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5PrintSupportd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Purchasing.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Purchasingd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Qml.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Qmld.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Quick.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5QuickControls2.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5QuickControls2d.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Quickd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5QuickParticles.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5QuickParticlesd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5QuickShapes.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5QuickShapesd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5QuickTemplates2.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5QuickTemplates2d.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5QuickTest.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5QuickTestd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5QuickWidgets.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5QuickWidgetsd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5RemoteObjects.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5RemoteObjectsd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Script.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Scriptd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5ScriptTools.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5ScriptToolsd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Scxml.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Scxmld.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Sensors.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Sensorsd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5SerialBus.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5SerialBusd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5SerialPort.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5SerialPortd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Sql.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Sqld.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Svg.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Svgd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Test.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Testd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5TextToSpeech.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5TextToSpeechd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5VirtualKeyboard.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5VirtualKeyboardd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WebChannel.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WebChanneld.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WebEngine.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WebEngineCore.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WebEngineCored.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WebEngined.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WebEngineWidgets.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WebEngineWidgetsd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WebSockets.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WebSocketsd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WebView.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WebViewd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Widgets.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Widgetsd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WinExtras.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5WinExtrasd.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Xml.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5Xmld.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5XmlPatterns.dll
+C:\Qt\Qt5.12.1\5.12.1\msvc2017_64\bin\Qt5XmlPatternsd.dll
+      136 file(s) copied.
+	copy /y C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\release\*.exe C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Installer\packages\com.esri.helloworld\data
+C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\release\HelloWorld.exe
+        1 file(s) copied.
+	C:\Qt\QtIFW-3.0.6\bin\binarycreator.exe -c C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Installer\config\config.xml -p C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Installer\packages -v SetupHelloWorld
+[0] Parsed arguments, ok.
+[11] 
+Collecting information about available packages...
+[12] Found subdirectory "com.esri.helloworld"
+[13] - it provides the package "com.esri.helloworld"  -  "1.0.0-1"
+[13] Copying component data for "com.esri.helloworld"
+[16] Compressing data directory "audio"
+[168] Compressing data directory "bearer"
+[222] Compressing data directory "canbus"
+[408] Compressing data directory "designer"
+[501] Compressing data directory "gamepads"
+[541] Compressing data directory "generic"
+[605] Compressing data directory "geometryloaders"
+[683] Compressing data directory "geoservices"
+[1087] Compressing data directory "iconengines"
+[1104] Compressing data directory "imageformats"
+[1630] Compressing data directory "mediaservice"
+[1842] Compressing data directory "platforminputcontexts"
+[1860] Compressing data directory "platforms"
+[4883] Compressing data directory "platformthemes"
+[4910] Compressing data directory "playlistformats"
+[4925] Compressing data directory "position"
+[5035] Compressing data directory "printsupport"
+[5059] Compressing data directory "qml"
+[9690] Compressing data directory "qmltooling"
+[10759] Compressing data directory "renderplugins"
+[10788] Compressing data directory "scenegraph"
+[10948] Compressing data directory "sceneparsers"
+[14890] Compressing data directory "sensorgestures"
+[14940] Compressing data directory "sensors"
+[14961] Compressing data directory "sqldrivers"
+[15495] Compressing data directory "styles"
+[15552] Compressing data directory "texttospeech"
+[15575] Compressing data directory "virtualkeyboard"
+[16337] Compressing data directory "webview"
+[16352] Compressing files found in data directory: ("C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/d3dcompiler_47.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/HelloWorld.exe", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/libEGL.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/libEGLd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/libGLESv2.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/libGLESv2d.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/opengl32sw.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DAnimation.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DAnimationd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DCore.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DCored.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DExtras.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DExtrasd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DInput.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DInputd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DLogic.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DLogicd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DQuick.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DQuickAnimation.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DQuickAnimationd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DQuickd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DQuickExtras.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DQuickExtrasd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DQuickInput.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DQuickInputd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DQuickRender.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DQuickRenderd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DQuickScene2D.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DQuickScene2Dd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DRender.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt53DRenderd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Bluetooth.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Bluetoothd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Charts.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Chartsd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Concurrent.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Concurrentd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Core.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Cored.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5DataVisualization.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5DataVisualizationd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5DBus.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5DBusd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Designer.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5DesignerComponents.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5DesignerComponentsd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Designerd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Gamepad.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Gamepadd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Gui.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Guid.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Help.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Helpd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Location.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Locationd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Multimedia.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Multimediad.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5MultimediaQuick.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5MultimediaQuickd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5MultimediaWidgets.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5MultimediaWidgetsd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Network.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5NetworkAuth.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5NetworkAuthd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Networkd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Nfc.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Nfcd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5OpenGL.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5OpenGLd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Positioning.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Positioningd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5PositioningQuick.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5PositioningQuickd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5PrintSupport.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5PrintSupportd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Purchasing.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Purchasingd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Qml.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Qmld.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Quick.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5QuickControls2.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5QuickControls2d.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Quickd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5QuickParticles.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5QuickParticlesd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5QuickShapes.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5QuickShapesd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5QuickTemplates2.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5QuickTemplates2d.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5QuickTest.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5QuickTestd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5QuickWidgets.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5QuickWidgetsd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5RemoteObjects.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5RemoteObjectsd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Script.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Scriptd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5ScriptTools.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5ScriptToolsd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Scxml.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Scxmld.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Sensors.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Sensorsd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5SerialBus.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5SerialBusd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5SerialPort.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5SerialPortd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Sql.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Sqld.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Svg.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Svgd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Test.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Testd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5TextToSpeech.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5TextToSpeechd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5VirtualKeyboard.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5VirtualKeyboardd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WebChannel.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WebChanneld.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WebEngine.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WebEngineCore.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WebEngineCored.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WebEngined.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WebEngineWidgets.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WebEngineWidgetsd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WebSockets.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WebSocketsd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WebView.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WebViewd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Widgets.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Widgetsd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WinExtras.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5WinExtrasd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Xml.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5Xmld.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5XmlPatterns.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/Qt5XmlPatternsd.dll", "C:/Users/step7069/Documents/Qt/build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release/Installer/packages/com.esri.helloworld/data/README.txt")
+[17457] Warning: QFile::remove: Empty or null file name
+[17457] Cleaning up...
+Caught exception: Cannot create archive "C:\Users\step7069\AppData\Local\Temp\binarycreator-l9Mfi9\com.esri.helloworld\1.0.0-1content.7z": not enough memory
+jom: C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Makefile.Release [copydata] Error 1
+jom: C:\Users\step7069\Documents\Qt\build-HelloWorld-Desktop_Qt_5_12_1_MSVC2017_64bit-Release\Makefile [release] Error 2
+14:48:42: The process "C:\Qt\Qt5.12.1\Tools\QtCreator\bin\jom.exe" exited with code 2.
+Error while building/deploying project HelloWorld (kit: Desktop Qt 5.12.1 MSVC2017 64bit)
+The kit Desktop Qt 5.12.1 MSVC2017 64bit has configuration issues which might be the root cause for this problem.
+When executing step "Make"
+14:48:42: Elapsed time: 00:23.
